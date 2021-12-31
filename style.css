@@ -141,3 +141,36 @@ footer p {
     text-align: center;
     padding-top: 10px;
 }
+
+/* Style CSS du Formulaire de contact (contact.html) */
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 40%;
+}
+
+label {
+    margin-top: 0.5em;
+}
+
+button {
+    margin-top: 15px;
+}
+
+/* Style CSS pour la gallerie de photos */
+
+.photo {
+    border: 1px solid black;
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    justify-items: center;
+}
+
+.photo div {
+    margin: auto;
+}
